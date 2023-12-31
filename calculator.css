@@ -1,0 +1,177 @@
+/* write with id calculator */
+
+.class-body{
+    background-color: aliceblue;
+    height:100%;
+    width: 100%;
+}
+.benjamins{
+    margin-top: 4%;
+    margin-left: 0%;
+    color:lightgreen ;
+    text-align: center;
+}
+.calculatorDivider{
+    background-color: white;
+    height: 60VH;
+    width: 25%;
+    border: 1px solid black;
+    margin-top: 7%;
+    margin-left: 35%;
+    margin-bottom: 2%;
+}
+.form{
+    background-color: brown;
+    height: 100%;
+    width: 100%;
+}
+.input-display{
+    background-color: white;
+    height: 13%;
+    width: 98%
+   
+}
+.container-for-four-div{
+    background-color: aqua;
+    height: 86%;
+    width: 100%;
+}
+.btn-ac{
+    background-color: white;
+    height: 21%;
+    width: 24%;
+    margin: 0%;
+    margin-top: 2%;
+}
+.btn-de{
+    background-color: white;
+    height: 21%;
+    width: 24%;
+    margin: 0%;
+    margin-top: 2%;
+}
+.btn-dot{
+    background-color: white;
+    height: 21%;
+    width: 23%;
+    margin: 0%;
+    margin-top: 2%;
+}
+.btn-division{
+    background-color: white;
+    height: 21%;
+    width: 24%;
+    margin: 0%;
+    margin-top: 2%;
+}
+.btn-seven{
+    background-color: white;
+    height: 25%;
+    width: 23%;
+    margin: 0%;
+    margin-top: 2%; 
+}
+.btn-eight{
+    background-color: white;
+    height: 25%;
+    width: 23%;
+    margin: 0%;
+    margin-top: 2%;  
+}
+.btn-nine{
+    background-color: white;
+    height: 25%;
+    width: 23%;
+    margin: 0%;
+    margin-top: 2%; 
+}
+.btn-multiplcation{
+    background-color: white;
+    height: 25%;
+    width: 23%;
+    margin: 0%;
+    margin-top: 2%; 
+}
+.btn-four{
+    background-color: white;
+    height: 25%;
+    width: 24%;
+    margin: 0%;
+    margin-top: 2%; 
+}
+.btn-five{
+    background-color: white;
+    height: 25%;
+    width: 24%;
+    margin: 0%;
+    margin-top: 2%; 
+}
+.btn-six{
+    background-color: white;
+    height: 25%;
+    width: 24%;
+    margin: 0%;
+    margin-top: 2%; 
+}
+.btn-minus{
+    background-color: white;
+    height: 25%;
+    width: 24%;
+    margin: 0%;
+    margin-top: 2%; 
+}
+.btn-three{
+    background-color: white;
+    height: 25%;
+    width: 24%;
+    margin: 0%;
+    margin-top: 2%; 
+}
+.btn-one{
+    background-color: white;
+    height: 25%;
+    width: 24%;
+    margin: 0%;
+    margin-top: 2%; 
+}
+.btn-two{
+    background-color: white;
+    height: 25%;
+    width: 24%;
+    margin: 0%;
+    margin-top: 2%; 
+}
+.btn-addition{
+    background-color: white;
+    height: 25%;
+    width: 24%;
+    margin: 0%;
+    margin-top: 2%; 
+}
+.divider-seven{
+    background-color: aqua;
+    height: 8vh;
+    width: 100%;
+    margin-top: 2%;
+}
+.btn-zero{
+    background-color: white;
+    height: 90%;
+    width: 26%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.btn-zero-zero{
+    background-color: white;
+    height: 90%;
+    width: 26%;
+    margin-right: 2%; 
+}
+.btn-equal{
+    background-color: white;
+    height: 90%;
+    width: 26%; 
+    margin-right: 2%; 
+}
+
+

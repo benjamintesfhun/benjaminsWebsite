@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./calculator.css">
+</head>
+<body class="class-body">
+  <h1 class="benjamins">welcome to benjamins great first standard calculator</h1>
+  <div  class="calculatorDivider" id="calculator">
+    <form class="form">
+      <input class="input-display" type="text" name="display">
+      <div class="container-for-four-div" id="container-for-four-div-id">
+        <div id="button">
+        <div class="divider-three">
+        <input class="btn-ac" id="btn-ac-id" type="button" value="Ac" onclick="display.value=display.value.toString().slice(0,0)">
+        <input class="btn-de" id="btn-de-id" type="button" value="De" onclick="display.value = display.value.toString().slice
+        (0,-1)">
+        <input class="btn-dot" id="btn-.-id" type="button" value="." onclick="display.value +='.'" >
+        <input class="btn-division" id="btn-/-id" type="button" value="/" onclick="display.value +='/'">
+        </div>
+        <div class="divider-four">
+          <input class="btn-seven" id="btn-seven-id" type="button" value="7" onclick="display.value +='7'">
+          <input class="btn-eight" id="btn-eight-id" type="button" value="8" onclick="display.value +='8'">
+          <input class="btn-nine"  id="btn-nine-id"   type="button" value="9" onclick="display.value +='9'">
+          <button class="btn-multiplcation"  id="btn-meltiplaction-id" type="button" value="*" onclick="display.value +='*'">*</button>
+        </div>
+        <div class="divider-five">
+          <input class="btn-four" id="btn-four-id" type="button" value="4" onclick="display.value +='4'">
+          <input class="btn-five" id="btn-five-id" type="button" value="5" onclick="display.value +='5'">
+          <input class="btn-six" id="btn-six-id" type="button" value="6" onclick="display.value +='6'">
+          <input class="btn-minus" id="btn-minus-id" type="button" value="-"  onclick="display.value +='-'">
+        </div>
+        <div class="divider-six">
+          <input class="btn-one" id="btn-one-id" type="button" value="1" onclick="display.value +='1'">
+          <input class="btn-two" id="btn-two-id" type="button" value="2" onclick="display.value +='2'">
+          <input class="btn-three" id="btn-three-id" type="button" value="3" onclick="display.value +='3'">
+          <input class="btn-addition" id="btn-addition-id" type="button" value="+" onclick="display.value +='+'">
+        </div>
+        <div class="divider-seven">
+          <input class="btn-zero" id="btn-zero-id" type="button" value="0" onclick="display.value +='0'">
+          <input class="btn-zero-zero" id="btn-zero-zero-id" type="button" value="00" onclick="display.value +='00'">
+          <input class="btn-equal" id="btn-equal-id" type="button" value="=" onclick="display.value=eval(display.value)" class="=">
+        </div>
+       </div>
+      </div> 
+    </form> 
+    </div>
+   
+
+</body>
+<script src="./calculator.js"></script>
+</html>
